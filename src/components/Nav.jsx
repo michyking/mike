@@ -9,6 +9,7 @@ const Nav = () => {
     { path: "/", title: "Home" },
     { path: "/about", title: "About" },
     { path: "/michyking", title: "Michyking" },
+    { path: "/gift", title: "Gift" },
   ];
 
   const renderLinks = navLinks.map((value, index) => {

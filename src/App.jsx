@@ -13,6 +13,7 @@ import Michyking from "./pages/Michyking";
 import GlobalLayout from "./components/GlobalLayout";
 import FoodItem from "./pages/FoodItem";
 import Error from "./components/Error";
+import Gift from "./pages/Gift";
 
 const App = () => {
   // const [count, setCount] = useState(0);
@@ -80,6 +81,7 @@ const App = () => {
       <Route index element={<Home />}></Route>
       <Route path="about" element={<About />}></Route>
       <Route path="michyking" element={<Michyking />}></Route>
+      <Route path="gift" element={<Gift />}></Route>
     </Route>
   );
 
